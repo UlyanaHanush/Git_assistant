@@ -1,3 +1,14 @@
+<figure class="fig">
+   <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" width="200" height="200">
+   <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" width="280" height="200">
+   <figcaption>
+      <h1> Learn GIT & Terminal </h1>
+   </figcaption>
+   <hr>
+   <figcaption>
+      <h2> Beginner's Guide to Version Control & Command Line </h2>
+   </figcaption>
+</figure>
 <style>
    .fig {
     text-align: center; /* Выравнивание по центру */
@@ -12,17 +23,6 @@
         background-color: black; /* Цвет линии */
         height: 1px; /* Толщина линии */ }
 </style>
-<figure class="fig">
-   <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" width="200" height="200">
-   <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" width="280" height="200">
-   <figcaption>
-      <h1> Learn GIT & Terminal </h1>
-   </figcaption>
-   <hr>
-   <figcaption>
-      <h2> Beginner's Guide to Version Control & Command Line </h2>
-   </figcaption>
-</figure>
 
 ##Установка Git
 git --version
