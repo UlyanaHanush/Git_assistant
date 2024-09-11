@@ -1,6 +1,8 @@
-
+<! doctype html>
 <html>
     <head>
+        <meta charset="utf-8">
+        <titel></titel>
         <style>
            .fig {
             text-align: center; /* Выравнивание по центру */
@@ -13,7 +15,9 @@
             hr {
                 border: none; /* Убираем границу */
                 background-color: black; /* Цвет линии */
-                height: 1px; /* Толщина линии */ }
+                height: 1px; /* Толщина линии */
+                }
+            }
         </style>
     </head>
     <body>
