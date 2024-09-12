@@ -20,6 +20,8 @@
     - [Create Add Save](#create-add-save)
     - [Make a commit](#make-a-commit)
 - [Recommendations](#recommendations)
+- [Generate-SSH key](#generate-ssh-key)
+- [Add an SSH key to your GitHub account](#add-an-ssh-key-to-your-github-account)
 
 
 # Installing Git
@@ -66,6 +68,34 @@ git commit -m "Text of changes!"
 # Recommendations
 consider in detail the service information from the .git folder
 
-[![Ulyana's GitHub stats](https://github-readme-stats.vercel.app/api?username=ulyanahanush)](https://github.com/ulyanahanush/github-readme-stats)
+
+# Generate SSH-key
+
+Open Terminal and enter the command:  
+ssh-keygen -t ed25519 -C "<YOUR EMAIL when registering with GitHub>"  
+
+Next, the command will prompt you to enter the path to the folder where you want to save the key:  
+Enter file in which to save the key (/Users/practicum/.ssh/id_ed25519)    
+I recommend agreeing with the proposed option - just press Enter.  
+
+Enter a passphrase for the file:  
+Enter passphrase (empty for no passphrase)
+This password will be needed every time you try to print part of the key.  
+The program offers to create a key without a password; to skip a step, press Enter.  
+Next, run a command that will add the key to the SSH agent (a program that remembers your private SSH key and automatically substitutes it when you connect to the server via SSH) and saves it in the Keychain:  
+ssh-add --apple-use-keychain ~/.ssh/id_ed25519  
+Now copy the public key id_ed25519.pub to the clipboard:  
+pbcopy < ~/.ssh/id_ed25519.pub  
+
+
+# Add an SSH key to your GitHub account
+
+*  Go to GitHub and go to Settings.  
+*  In the left menu, select SSH and GPG keys.  
+*  Click New SSH key or Add SSH key.  
+*  In the Title field, enter the name of the key (for example, the name of your computer).   
+*  In the Key field, paste the key from the clipboard using the hot keys Cmd + V.  
+*  Click Add SSH key.
+
 
 ![Ulyana's GitHub stats](https://github-readme-stats.vercel.app/api?username=ulyanahanush\&show_icons=true\&theme=radical)
