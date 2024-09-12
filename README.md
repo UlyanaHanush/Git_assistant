@@ -4,45 +4,66 @@
  <h2 align="center">Learn GIT & Terminal</h2>
  <p align="center">Beginner's Guide to Version Control & Command Line</p>
 <p align="center">
-<a href="docs/readme_rus.md">English</a>
+<a href="docs/readme_rus.md">Русский</a>
 </p>
 
-##Установка Git
+<p align="center">Please note that documentation translations may be outdated; try to use English documentation if possible.</p>
+
+# Features <!-- omit in toc -->
+
+- [Installing Git](#installing-git)
+    - [Installing Git](#installing-git)
+    - [Working with the .gitconfig](#working-with-the-.gitconfig)
+    - [List of all config properties](#list-of-all-config-properties)
+    - [Case sensitivity](#case-sensitivity)
+    - [Creating a local Git-repository](#creating-a-local-git-repository)
+    - [Create Add Save](#create-add-save)
+    - [Make a commit](#make-a-commit)
+- [Recommendations](#recommendations)
+
+
+# Installing Git
 git --version
 
-А если команда не найдена, то воспользуйтесь этой:
+And if the command is not found, then use this:
 xcode-select --install
 
-#Работа с файлом настройки .gitconfig
+# Working with the .gitconfig 
 git config --global user.name "Practicum"
 git config --global user.email uluana.hanush@gmail.com
 
-#Cписок всех свойств конфига
+# List of all config properties
 git config --list
 
-#Чувствительность к регистру
+# Case sensitivity
 git config --global core.ignorecase false
 
-#Создание локального Git-репозитория.
-1. Создать Папку
-mkdir  Папка
-cd Папка
+# Creating a local Git-repository
+Creating folder :
+mkdir  nameFolder
+Moving in folder
+cd nameFolder
 git init
 
-#«Разгитить» папку
+If you need: delate repository
 rm -rf .git
 
-#Создать/добавить или добавить все или добавить текущую папку/сохранить
+# Create Add Save
 touch file.txt 
-git add file.txt или git add --all или git add .
+git add file.txt
 
-#Делаем коммит
+Save all file
+git add --all
+git add .
+
+# Make a commit
 git commit -m "Коммит!"
 
-> [Caution: git commit]
-> ОБЯЗАТЕЛЬНО на английской раскладке :q! <!-- git попросит ввести название коммита в редакторе по умолчанию. Иногда в таком случае открывается редактор vim. Выйти из Vim. -->
 
-##Рекомендации:
-рассматреть подробно служебную информацию из папки .git
+> [Caution: git commit]
+> MUST be on the English layout :q! <!-- git will ask you to enter the name of the commit in the default editor. Sometimes in this case the Vim editor opens. Quit Vim -->
+
+# Recommendations
+consider in detail the service information from the .git folder
 
 [![Ulyana's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
