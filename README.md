@@ -5,7 +5,7 @@
  <p align="center">Beginner's Guide to Version Control & Command Line</p>
 </p>
 <p align="center">
-<a href="/docs/readme_rusd.md">Русский </a>
+<a href="/docs/readme_rus.md>Русский </a>
 </p>
 
 ##Установка Git
