@@ -5,5 +5,5 @@
  <p align="center">Руководство для начинающих по Контролю версий и Командной строке</p>
 </p>
 <p align="center">
-<a href="/README.md">Englishpu </a>
+<a href="/README.md">English</a>
 </p>

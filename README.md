@@ -3,10 +3,7 @@
 <img width="100px" src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" align="center" alt="Learn GIT & Terminal" />
  <h2 align="center">Learn GIT & Terminal</h2>
  <p align="center">Beginner's Guide to Version Control & Command Line</p>
-</p>
-<p align="center">
-<a href="/docs/readme_rus.md>Русский </a>
-</p>
+
 
 ##Установка Git
 git --version
@@ -16,7 +13,7 @@ xcode-select --install
 
 #Работа с файлом настройки .gitconfig
 git config --global user.name "Practicum"
-git config --global user.email practicum@ya.ru
+git config --global user.email uluana.hanush@gmail.com
 
 #Cписок всех свойств конфига
 git config --list
