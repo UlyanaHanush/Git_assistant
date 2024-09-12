@@ -102,5 +102,18 @@ pbcopy < ~/.ssh/id_ed25519.pub
 
 *  Нажмите Add SSH key.  
 
+# Клонируем репозиторий
+Откройте терминал и перейдите в папку проектов  
+
+*  Откройте ваш проект в GitHub, нажмите зелёную кнопку Code и скопируйте SSH-адрес проекта
+
+![In the Title field, enter the name of the key](https://github.com/UlyanaHanush/Git_assistant/blob/main/image/Image-4.png)
+
+git clone git@github.com:<ВАШ НИКНЕЙМ>/first-project-git.git second-project-git
+cd second-project-git  
+
+Перед выполнением git pull убедитесь, что ваша рабочая версия чиста, то есть все изменения зафиксированы: сделан commit.  
+Иногда после выполнения git pull могут возникнуть конфликты слияния, если одни и те же части кода были изменены локально и в удалённом репозитории. В таком случае Git попросит вас разрешить эти конфликты перед тем как продолжить.
+
 
 ![Ulyana's GitHub stats](https://github-readme-stats.vercel.app/api?username=ulyanahanush\&show_icons=true\&theme=radical)
