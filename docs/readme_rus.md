@@ -23,6 +23,8 @@
 - [Рекомендации](#рекомендации)
 - [Генерация SSH-ключа](#генерация-ssh-ключа)
 - [Добавляем SSH-ключ в GitHub аккаунт](#добавляем-ssh-ключ-в-github-аккаунт)
+- [Клонируем репозиторий](#клонируем-репозиторий)
+- [Ветки](#ветки)
 
 # Установка Git
 git --version
@@ -84,19 +86,19 @@ pbcopy < ~/.ssh/id_ed25519.pub
 
 *  Зайдите на GitHub и перейдите в Settings (Настройки).  
 
-![Go to GitHub and go to Settings](https://github.com/UlyanaHanush/Git_assistant/blob/main/image/Image.png)
+![Зайдите на GitHub и перейдите в Settings](https://github.com/UlyanaHanush/Git_assistant/blob/main/image/Image.png)
 
 *  В левом меню выберите SSH and GPG keys.
 
-![In the left menu, select SSH and GPG keys](https://github.com/UlyanaHanush/Git_assistant/blob/main/image/Image-2.png)
+![В левом меню выберите SSH and GPG keys](https://github.com/UlyanaHanush/Git_assistant/blob/main/image/Image-2.png)
   
 *  Нажмите New SSH key или Add SSH key.  
 
-![Click New SSH key or Add SSH key](https://github.com/UlyanaHanush/Git_assistant/blob/main/image/Image-3.png)
+![Нажмите New SSH key или Add SSH key](https://github.com/UlyanaHanush/Git_assistant/blob/main/image/Image-3.png)
 
 *  В поле Title введите название ключа (например, название вашего компьютера).  
 
-![In the Title field, enter the name of the key](https://github.com/UlyanaHanush/Git_assistant/blob/main/image/Image-4.png)
+![В поле Title введите название ключа](https://github.com/UlyanaHanush/Git_assistant/blob/main/image/Image-4.png)
  
 *  В поле Key вставьте ключ из буфера обмена горячими клавишами Cmd + V.  
 
@@ -107,13 +109,43 @@ pbcopy < ~/.ssh/id_ed25519.pub
 
 *  Откройте ваш проект в GitHub, нажмите зелёную кнопку Code и скопируйте SSH-адрес проекта
 
-![In the Title field, enter the name of the key](https://github.com/UlyanaHanush/Git_assistant/blob/main/image/Image-4.png)
+![Откройте ваш проект в GitHub, нажмите зелёную кнопку Code и скопируйте](https://github.com/UlyanaHanush/Git_assistant/blob/main/image/gitClon.png)
 
+Откройте терминал и перейдите в папку проектов:
 git clone git@github.com:<ВАШ НИКНЕЙМ>/first-project-git.git second-project-git
 cd second-project-git  
 
 Перед выполнением git pull убедитесь, что ваша рабочая версия чиста, то есть все изменения зафиксированы: сделан commit.  
-Иногда после выполнения git pull могут возникнуть конфликты слияния, если одни и те же части кода были изменены локально и в удалённом репозитории. В таком случае Git попросит вас разрешить эти конфликты перед тем как продолжить.
+Иногда после выполнения git pull могут возникнуть конфликты слияния, если одни и те же части кода были изменены локально и в удалённом репозитории. В таком случае Git попросит вас разрешить эти конфликты перед тем как продолжить.  
 
+> [!WARNING]\
+> Перед выполнением git pull убедитесь, что ваша рабочая версия чиста, то есть все изменения зафиксированы: сделан commit. Иногда после выполнения git pull могут возникнуть конфликты слияния, если одни и те же части кода были изменены локально и в удалённом репозитории. В таком случае Git попросит вас разрешить эти конфликты перед тем как продолжить.  
+
+# Ветки
+
+git branch — просматриваем ветки проекта  
+git branch <название_ветки>: создаём ветку  
+git checkout <название_ветки>: переключаемся между ветками  
+
+Можно создать ветку и сразу начать в ней работать  
+git checkout -b another_branch  
+
+Сливаем ветки  
+git merge new_branch  
+
+последние изменения из основной ветки в удалённый репозиторий   
+git push -u origin main 
+
+необязательно переходить в ветку, чтобы запушить её  
+git push -u origin merge-request 
+
+# Делаем Pull Request
+
+*  Перейдите на страницу репозитория и выберите вкладку Pull requests и нажмите зелёную кнопку New pull request. Выберите названия веток:  ветка «куда» (в которую пулл-реквест будет осуществлён) и ветка «откуда» (из которой будет идти пулл-реквест).
+
+В окне отобразятся добавленные коммиты и их изменения. Нажмите Create pull request.  
+Заполните поля с названием и описанием пулл-реквеста. Нажмите Create pull request.  
+Теперь вы или ваши коллеги могут перейти на вкладку Files changed (англ. «изменённые файлы»), чтобы оставить свои комментарии — провести ревью.  
+Осталось только нажать Merge pull request (англ. «принять запрос на изменения»). Это объединит ветку с вашими изменениями и ветку main.  
 
 ![Ulyana's GitHub stats](https://github-readme-stats.vercel.app/api?username=ulyanahanush\&show_icons=true\&theme=radical)

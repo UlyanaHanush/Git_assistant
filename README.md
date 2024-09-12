@@ -22,6 +22,8 @@
 - [Recommendations](#recommendations)
 - [Generate-SSH key](#generate-ssh-key)
 - [Add an SSH key to your GitHub account](#add-an-ssh-key-to-your-github-account)
+- [Clone the repository](#clone-the-repository)
+- [Branches](#branches)
 
 
 # Installing Git
@@ -110,5 +112,39 @@ pbcopy < ~/.ssh/id_ed25519.pub
 
 *  Click Add SSH key.  
 
+# Clone the repository
+Open a terminal and go to your projects folder  
+
+* Open your project in GitHub, click the green Code button and copy the project's SSH address
+
+![Open your project in GitHub, click the green Code button and copy](https://github.com/UlyanaHanush/Git_assistant/blob/main/image/gitClon.png)
+
+Open a terminal and go to your projects folder:
+git clone git@github.com:<YOUR NICKNAME>/first-project-git.git second-project-git
+cd second-project-git  
+
+Before performing a git pull, make sure that your working version is clean, that is, all changes are committed: a commit is made.  
+Sometimes, after running a git pull, merge conflicts can arise if the same parts of code have been changed locally and in the remote repository. In this case, Git will ask you to resolve these conflicts before continuing. 
+
+> [!WARNING]\
+> Before performing a git pull, make sure that your working version is clean, that is, all changes are committed: a commit is made. Sometimes, after running a git pull, merge conflicts can arise if the same parts of code have been changed locally and in the remote repository. In this case, Git will ask you to resolve these conflicts before continuing.  
+
+# Branches
+
+git branch - view project branches  
+git branch <branch_name>: create a branch  
+git checkout <branch_name>: switch between branches  
+
+You can create a branch and immediately start working on it  
+git checkout -b another_branch  
+
+Merging the branches  
+git merge new_branch  
+
+latest changes from master branch to remote repository   
+git push -u origin main 
+
+you don't have to go to a branch to push it  
+git push -u origin merge-request 
 
 ![Ulyana's GitHub stats](https://github-readme-stats.vercel.app/api?username=ulyanahanush\&show_icons=true\&theme=radical)
