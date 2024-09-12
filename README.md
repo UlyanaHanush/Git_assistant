@@ -91,11 +91,24 @@ pbcopy < ~/.ssh/id_ed25519.pub
 # Add an SSH key to your GitHub account
 
 *  Go to GitHub and go to Settings.  
+
+![Go to GitHub and go to Settings](image/Image.png)
+
 *  In the left menu, select SSH and GPG keys.  
+
+![In the left menu, select SSH and GPG keys](image/Image-2.png)
+
 *  Click New SSH key or Add SSH key.  
+
+![Click New SSH key or Add SSH key](image/Image-3.png)
+
 *  In the Title field, enter the name of the key (for example, the name of your computer).   
+
+![In the Title field, enter the name of the key](image/Image-4.png)
+
 *  In the Key field, paste the key from the clipboard using the hot keys Cmd + V.  
-*  Click Add SSH key.
+
+*  Click Add SSH key.  
 
 
 ![Ulyana's GitHub stats](https://github-readme-stats.vercel.app/api?username=ulyanahanush\&show_icons=true\&theme=radical)

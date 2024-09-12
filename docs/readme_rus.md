@@ -83,10 +83,23 @@ pbcopy < ~/.ssh/id_ed25519.pub
 # Добавляем SSH-ключ в GitHub аккаунт 
 
 *  Зайдите на GitHub и перейдите в Settings (Настройки).  
-*  В левом меню выберите SSH and GPG keys.  
+
+![Go to GitHub and go to Settings](image/Image.png)
+
+*  В левом меню выберите SSH and GPG keys.
+
+![In the left menu, select SSH and GPG keys](image/Image-2.png)
+  
 *  Нажмите New SSH key или Add SSH key.  
-*  В поле Title введите название ключа (например, название вашего компьютера).   
+
+![Click New SSH key or Add SSH key](image/Image-3.png)
+
+*  В поле Title введите название ключа (например, название вашего компьютера).  
+
+![In the Title field, enter the name of the key](image/Image-4.png)
+ 
 *  В поле Key вставьте ключ из буфера обмена горячими клавишами Cmd + V.  
+
 *  Нажмите Add SSH key.  
 
 
