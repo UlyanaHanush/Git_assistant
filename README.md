@@ -67,3 +67,5 @@ git commit -m "Text of changes!"
 consider in detail the service information from the .git folder
 
 [![Ulyana's GitHub stats](https://github-readme-stats.vercel.app/api?username=ulyanahanush)](https://github.com/ulyanahanush/github-readme-stats)
+
+![Ulyana's GitHub stats](https://github-readme-stats.vercel.app/api?username=ulyanahanush\&show_icons=true\&theme=radical)

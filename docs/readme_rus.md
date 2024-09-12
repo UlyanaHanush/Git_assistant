@@ -62,3 +62,5 @@ git commit -m "Коммит!"
 рассматреть подробно служебную информацию из папки .git
 
 [![Ulyana's GitHub stats](https://github-readme-stats.vercel.app/api?username=ulyanahanush)](https://github.com/ulyanahanush/github-readme-stats)
+
+![Ulyana's GitHub stats](https://github-readme-stats.vercel.app/api?username=ulyanahanush\&show_icons=true\&theme=radical)
