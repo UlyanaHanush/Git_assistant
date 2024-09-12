@@ -88,15 +88,15 @@ pbcopy < ~/.ssh/id_ed25519.pub
 
 *  В левом меню выберите SSH and GPG keys.
 
-![In the left menu, select SSH and GPG keys](Git_assistant/image/Image-2.png)
+![In the left menu, select SSH and GPG keys](https://github.com/UlyanaHanush/Git_assistant/blob/main/image/Image-2.png)
   
 *  Нажмите New SSH key или Add SSH key.  
 
-![Click New SSH key or Add SSH key](Git_assistant/image/Image-3.png)
+![Click New SSH key or Add SSH key](https://github.com/UlyanaHanush/Git_assistant/blob/main/image/Image-3.png)
 
 *  В поле Title введите название ключа (например, название вашего компьютера).  
 
-![In the Title field, enter the name of the key](Git_assistant/image/Image-4.png)
+![In the Title field, enter the name of the key](https://github.com/UlyanaHanush/Git_assistant/blob/main/image/Image-4.png)
  
 *  В поле Key вставьте ключ из буфера обмена горячими клавишами Cmd + V.  
 
