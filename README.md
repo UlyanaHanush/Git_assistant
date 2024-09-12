@@ -54,16 +54,16 @@ git add file.txt
 
 Save all file  
 git add --all  
-git add .  
+git add  .  
 
 # Make a commit  
-git commit -m "Коммит!"  
+git commit -m "Text of changes!"  
 
 
-> [Caution: git commit]
+> [!WARNING]\
 > MUST be on the English layout :q! <!-- git will ask you to enter the name of the commit in the default editor. Sometimes in this case the Vim editor opens. Quit Vim -->
 
 # Recommendations
 consider in detail the service information from the .git folder
 
-[![Ulyana's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
+[![Ulyana's GitHub stats](https://github-readme-stats.vercel.app/api?username=ulyanahanush)](https://github.com/ulyanahanush/github-readme-stats)

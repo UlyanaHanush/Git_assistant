@@ -40,12 +40,12 @@ git config --list
 git config --global core.ignorecase false  
 
 # Создание локального Git-репозитория
-Создать Папку  
+Создать Папку:  
 mkdir  имяПапки  
 cd имяПапки  
 git init  
 
-«Разгитить» папку  
+«Разгитить» папку:  
 rm -rf .git  
 
 # Создать Добавить Сохранить
@@ -55,10 +55,10 @@ git add file.txt или git add --all или git add .
 # Делаем коммит
 git commit -m "Коммит!"  
 
-> [Caution: git commit]
+> [!WARNING]\
 > ОБЯЗАТЕЛЬНО на английской раскладке :q! <!-- git попросит ввести название коммита в редакторе по умолчанию. Иногда в таком случае открывается редактор vim. Выйти из Vim. -->
 
 # Рекомендации:
 рассматреть подробно служебную информацию из папки .git
 
-[![Ulyana's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
+[![Ulyana's GitHub stats](https://github-readme-stats.vercel.app/api?username=ulyanahanush)](https://github.com/ulyanahanush/github-readme-stats)
