@@ -23,41 +23,41 @@
 
 
 # Installing Git
-git --version
+git --version  
 
 And if the command is not found, then use this:
-xcode-select --install
+xcode-select --install  
 
 # Working with the .gitconfig 
-git config --global user.name "Practicum"
-git config --global user.email uluana.hanush@gmail.com
+git config --global user.name "Practicum"  
+git config --global user.email uluana.hanush@gmail.com  
 
 # List of all config properties
-git config --list
+git config --list  
 
 # Case sensitivity
-git config --global core.ignorecase false
+git config --global core.ignorecase false  
 
 # Creating a local Git-repository
-Creating folder :
-mkdir  nameFolder
-Moving in folder
-cd nameFolder
-git init
+Creating folder :  
+mkdir  nameFolder  
+Moving in folder  
+cd nameFolder  
+git init  
 
-If you need: delate repository
-rm -rf .git
+If you need: delate repository  
+rm -rf .git  
 
-# Create Add Save
-touch file.txt 
-git add file.txt
+# Create Add Save  
+touch file.txt   
+git add file.txt  
 
-Save all file
-git add --all
-git add .
+Save all file  
+git add --all  
+git add .  
 
-# Make a commit
-git commit -m "Коммит!"
+# Make a commit  
+git commit -m "Коммит!"  
 
 
 > [Caution: git commit]

@@ -9,6 +9,7 @@
 </p>
 
 <p align="center">Обратите внимание, что переводы документации могут быть устаревшими; постарайтесь использовать английскую документацию, если это возможно.</p>
+
 # Оглавление <!-- omit in toc -->
 
 - [Установка Git](#установка-git)
@@ -25,34 +26,34 @@
 # Установка Git
 git --version
 
-А если команда не найдена, то воспользуйтесь этой:
-xcode-select --install
+А если команда не найдена, то воспользуйтесь этой:  
+xcode-select --install  
 
 # Работа с файлом настройки .gitconfig
-git config --global user.name "Practicum"
-git config --global user.email uluana.hanush@gmail.com
+git config --global user.name "Practicum"  
+git config --global user.email uluana.hanush@gmail.com  
 
 # Cписок всех свойств конфига
-git config --list
+git config --list  
 
 # Чувствительность к регистру
-git config --global core.ignorecase false
+git config --global core.ignorecase false  
 
 # Создание локального Git-репозитория
-Создать Папку
-mkdir  имяПапки
-cd имяПапки
-git init
+Создать Папку  
+mkdir  имяПапки  
+cd имяПапки  
+git init  
 
-«Разгитить» папку
-rm -rf .git
+«Разгитить» папку  
+rm -rf .git  
 
 # Создать Добавить Сохранить
-touch file.txt 
-git add file.txt или git add --all или git add .
+touch file.txt   
+git add file.txt или git add --all или git add .  
 
 # Делаем коммит
-git commit -m "Коммит!"
+git commit -m "Коммит!"  
 
 > [Caution: git commit]
 > ОБЯЗАТЕЛЬНО на английской раскладке :q! <!-- git попросит ввести название коммита в редакторе по умолчанию. Иногда в таком случае открывается редактор vim. Выйти из Vim. -->
