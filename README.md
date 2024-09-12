@@ -24,6 +24,7 @@
 - [Add an SSH key to your GitHub account](#add-an-ssh-key-to-your-github-account)
 - [Clone the repository](#clone-the-repository)
 - [Branches](#branches)
+- [Making a Pull Request](#making-a-Pull-Request)
 
 
 # Installing Git
@@ -146,5 +147,16 @@ git push -u origin main
 
 you don't have to go to a branch to push it  
 git push -u origin merge-request 
+
+# Making a Pull Request
+
+* Go to the repository page and select the Pull requests tab and click the green New pull request button. Select the names of the branches: the “to” branch (to which the pull request will be sent) and the “from” branch (from which the pull request will go).
+
+![Go to the repository page and select the Pull requests tab and click the green New pull request button](https://github.com/UlyanaHanush/Git_assistant/blob/main/image/pullRequest.png)
+
+The window will display the added commits and their changes. Click Create pull request.  
+Fill in the fields with the name and description of the pull request. Click Create pull request.  
+Now you or your colleagues can go to the Files changed tab to leave your comments and conduct a review.  
+All that remains is to click Merge pull request. This will merge the branch with your changes and the main branch.
 
 ![Ulyana's GitHub stats](https://github-readme-stats.vercel.app/api?username=ulyanahanush\&show_icons=true\&theme=radical)
