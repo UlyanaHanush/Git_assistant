@@ -3,7 +3,9 @@
 <img width="100px" src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" align="center" alt="Learn GIT & Terminal" />
  <h2 align="center">Learn GIT & Terminal</h2>
  <p align="center">Beginner's Guide to Version Control & Command Line</p>
-
+<p align="center">
+<a href="docs/readme_rus.md">English</a>
+</p>
 
 ##Установка Git
 git --version
