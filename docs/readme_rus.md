@@ -84,7 +84,7 @@ pbcopy < ~/.ssh/id_ed25519.pub
 
 *  Зайдите на GitHub и перейдите в Settings (Настройки).  
 
-![Go to GitHub and go to Settings](Git_assistant/image/Image.png)
+![Go to GitHub and go to Settings](https://github.com/UlyanaHanush/Git_assistant/blob/main/image/Image.png)
 
 *  В левом меню выберите SSH and GPG keys.
 
